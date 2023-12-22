@@ -80,12 +80,12 @@ Add “**export PATH=/home/…/pintos/src/utils:$PATH**” at the last line.
 1. Edit **pintos** and **pintos.pm** in **src/utils** : /threads/ -> /userprog/
 2. **cd ../src/userprog** ,run **'make'**
 3. **cd build** and run 4 line code:
-- '**pintos-mkdisk filesys.dsk --filesys-size=2**'
-- **'pintos -f -q'**.
+- **pintos-mkdisk filesys.dsk --filesys-size=2**
+- **pintos -f -q**.
 
  (run **'make'** in **src/example**)
  
-- **'pintos -p ../src/examples/echo -a echo -- -q'** ( replace by link of echo.c)
+- **pintos -p ../src/examples/echo -a echo -- -q** ( replace by link of echo.c)
 - **pintos -q run 'echo x'**
 4. run **' make check '** and waiting for this process,get the result of test cases
 
