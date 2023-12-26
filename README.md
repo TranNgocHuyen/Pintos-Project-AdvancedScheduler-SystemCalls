@@ -85,7 +85,7 @@ Add “**export PATH=/home/…/pintos/src/utils:$PATH**” at the last line.
 
  (run **'make'** in **src/example**)
  
-- **pintos -p ../src/examples/echo -a echo -- -q** ( replace by link of echo.c)
+- **pintos -p /home/tranngochuyen/He_dieu_anh/pintos-anon-master-syscall/src/examples/echo -a echo -- -q** ( replace by link of echo.c)
 - **pintos -q run 'echo x'**
 4. run **' make check '** and waiting for this process,get the result of test cases
 
