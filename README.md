@@ -92,3 +92,7 @@ Add “**export PATH=/home/…/pintos/src/utils:$PATH**” at the last line.
 //NOTE: 
 before 'make', should 'make clean'
 should make utils and source ~/.bashrc
+
+lỗi ERROR 126 thì cd home chmod -R 755 ./* 
+
+https://velog.io/@jing93/PintOS-Error-code-%EC%99%9C-%EB%82%A8%EC%9D%98-%EC%BB%B4%ED%93%A8%ED%84%B0%EC%97%90%EC%84%9C%EB%8A%94-error%EA%B0%80-%EC%95%88%EB%82%98%EB%8A%94%EB%8D%B0-%EB%82%B4%EA%BA%BC%EC%97%90%EC%84%9C%EB%8A%94-%EB%82%98%EB%8A%94%EA%B1%B4%EC%A7%80 
